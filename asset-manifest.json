@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/your-office-marketplace/static/css/main.b1fbe8fb.chunk.css",
+    "main.js": "/your-office-marketplace/static/js/main.465b0f30.chunk.js",
+    "main.js.map": "/your-office-marketplace/static/js/main.465b0f30.chunk.js.map",
+    "runtime-main.js": "/your-office-marketplace/static/js/runtime-main.64e84d04.js",
+    "runtime-main.js.map": "/your-office-marketplace/static/js/runtime-main.64e84d04.js.map",
+    "static/js/2.5e95433a.chunk.js": "/your-office-marketplace/static/js/2.5e95433a.chunk.js",
+    "static/js/2.5e95433a.chunk.js.map": "/your-office-marketplace/static/js/2.5e95433a.chunk.js.map",
+    "static/js/3.8ca1e161.chunk.js": "/your-office-marketplace/static/js/3.8ca1e161.chunk.js",
+    "static/js/3.8ca1e161.chunk.js.map": "/your-office-marketplace/static/js/3.8ca1e161.chunk.js.map",
+    "index.html": "/your-office-marketplace/index.html",
+    "static/css/main.b1fbe8fb.chunk.css.map": "/your-office-marketplace/static/css/main.b1fbe8fb.chunk.css.map",
+    "static/js/2.5e95433a.chunk.js.LICENSE.txt": "/your-office-marketplace/static/js/2.5e95433a.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/your-office-marketplace/static/media/icomoon.f0450cda.eot",
+    "static/media/offer.da5bc567.png": "/your-office-marketplace/static/media/offer.da5bc567.png",
+    "static/media/project-1.jpg": "/your-office-marketplace/static/media/project-1.29df3fd2.jpg",
+    "static/media/project-2.0cc14a9f.png": "/your-office-marketplace/static/media/project-2.0cc14a9f.png",
+    "static/media/project-3.668d9dd0.png": "/your-office-marketplace/static/media/project-3.668d9dd0.png",
+    "static/media/project-4.1f234983.png": "/your-office-marketplace/static/media/project-4.1f234983.png",
+    "static/media/project-5.2c2797e3.jpg": "/your-office-marketplace/static/media/project-5.2c2797e3.jpg",
+    "static/media/your-office-logo.png": "/your-office-marketplace/static/media/your-office-logo.5b022b35.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64e84d04.js",
+    "static/js/2.5e95433a.chunk.js",
+    "static/css/main.b1fbe8fb.chunk.css",
+    "static/js/main.465b0f30.chunk.js"
+  ]
+}
