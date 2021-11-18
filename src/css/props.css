@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Tajawal', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul, li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+button{
+   outline: none;
+   cursor: pointer; 
+}
+
+textarea, input{
+    font-family: 'Tajawal', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+select, textarea, input{
+    outline: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.aic{
+    align-items: center;
+}
+
+.jic{
+    justify-content: center;
+}
+
+.fixed{
+    position: fixed;
+}
+
+.abs{
+    position: absolute;
+}
+
+.abc{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rel{
+    position: relative;
+}
+
+.no_ul{
+    text-decoration: none;
+}
+
+.iblock{
+    display: inline-block;
+}
+
+.block{
+    display: block;
+}
+
+.colorfff{
+    color: #fff;
+}
+
+.color333{
+    color: #333;
+}
+
+.color777{
+    color: #777;
+}
+
+.fonts13{
+    font-size: 13px;
+}
+
+.fonts14{
+    font-size: 14px;
+}
+
+.fonts15{
+    font-size: 15px;
+}
+
+.fonts18{
+    font-size: 18px;
+}
+
+.fonts20{
+    font-size: 20px;
+}
+
+.fonts24{
+    font-size: 24px;
+}
+
+.fontn{
+    font-weight: normal;
+}
+
+.fontb{
+    font-weight: bold;
+}

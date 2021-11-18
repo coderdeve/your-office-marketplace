@@ -1,0 +1,690 @@
+* {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+.App{
+    padding: 0px 0px 0px 20px;
+}
+
+/* SPLASH */
+.splash{
+
+}
+
+.splash img{
+    height: 100px;
+}
+
+/* VIDEO PLAYER */
+.player{
+    width: 100%;
+    height: 55%;
+    background: #000;
+}
+
+.player video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.player .control{
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 90px;
+    background: rgba(62, 62, 62, 0.54);
+    z-index: 9;
+    padding: 0px 15px;
+}
+
+.player .control .pb{
+    border: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: #5a26f5;
+    color: #fff;
+}
+
+.player .control .timer{
+    flex: 1;
+    margin: 0px;
+    text-align: center;
+}
+
+.player .control .slider{
+    flex: 3;
+}
+
+.player .control .slider .progress{
+    width: 100%;
+    height: 10px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.player .control .slider .bar{
+    width: 40%;
+    height: 10px;
+    background: #5a26f5;
+    border-radius: 10px;
+}
+
+.player .control .slider .bar .knob{
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 100%;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    box-shadow: 0px 0px 5px #000;
+}
+
+.player .control .vol{
+    border: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: #5a26f500;
+    color: #fff;
+    margin: 0px 10px;
+}
+
+.player .control .fulls{
+    border: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: #5a26f500;
+    color: #fff;
+    margin: 0px 10px;
+}
+
+/* SIDEBAR */
+.sidebar{
+    width: 275px;
+}
+
+.sidebar .logo{
+    padding: 20px 25px;
+}
+
+.sidebar .logo img{
+    height: 80px;
+}
+
+.sidebar .nav{
+    padding: 50px 35px;
+}
+
+.sidebar .nav li{
+
+}
+
+.sidebar .nav li a{
+    padding: 10px 20px;
+    margin-bottom: 6px;
+}
+
+.sidebar .nav li a .ico{
+    margin-left: 10px;
+}
+
+.sidebar .nav li a .label{
+
+}
+
+.sidebar .nav li a.active,
+.sidebar .nav li a.on{
+    border-right: 2px #7348f4 solid;
+    color: #7348f4;
+    line-height: 1;
+}
+
+.sidebar .updated-project{
+    padding: 0px 35px;
+    margin: 20px 0px;
+}
+
+.sidebar .updated-project .ico{
+    background: #7348f4;
+    padding: 15px;
+    border-radius: 22px;
+    margin-left: 10px;
+}
+
+.sidebar .updated-project .label{
+    
+}
+
+.sidebar .updated-project .label .freelancer{
+    
+}
+
+.project-stats, .sidebar .stats{
+    padding: 70px 50px;
+}
+
+.project-stats .stats-box, .sidebar .stats .stats-box{
+    flex-direction: column;
+    width: 110px;
+}
+
+.project-stats .stats-box .ico, .sidebar .stats .stats-box .ico{
+    margin-bottom: 15px;
+}
+
+.sidebar .stats .stats-box .value{
+    
+}
+
+.sidebar .stats .stats-box .label{
+    
+}
+
+.project-stats .ico-shield, .sidebar .stats .stats-box .ico-shield{
+    color: #1aab53;
+}
+
+.project-stats .ico-battery, .sidebar .stats .stats-box .ico-battery{
+    color: #7348f4;
+}
+
+.sidebar .me{
+    padding: 20px 40px;
+}
+
+.sidebar .me .photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-left: 10px;
+    background: #eee;
+}
+
+.sidebar .me .photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.sidebar .me .label{
+    
+}
+
+.sidebar .me .label .yourname{
+    direction: ltr;
+}
+
+/* APP */
+.app-content{
+    flex: 2;
+    padding: 20px 40px 20px 20px;
+}
+
+/* HOME PAGE */
+.home-page{
+
+}
+
+.home-page .section{
+
+}
+
+.home-page .section .title{
+    margin-bottom: 20px;
+}
+
+.home-page .section .freelanceres{
+
+}
+
+.home-page .section .freelanceres .freelancer{
+    border: 2px #7348f4 solid;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    margin-left: 20px;
+    border-radius: 50px;
+    padding: 3px;
+}
+
+.home-page .section .freelanceres .freelancer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 55px;
+}
+
+.home-page .section .freelanceres .freelancer:hover{
+
+}
+
+.section-b{
+    margin-top: 50px;
+}
+
+.section .projects{
+
+}
+
+.section .projects a{
+    flex: 1;
+    margin-left: 25px;
+}
+
+.section .projects .block{
+    /* width: 250px; */
+    height: 375px;
+    background: #e2e2e2;
+    border-radius: 20px;
+    background-size: cover !important;
+}
+
+.section .projects a:last-child{
+    margin-left: auto;
+}
+
+.section .projects .block .user{
+    padding: 20px;
+    z-index: 1;
+}
+
+.section .projects .block .user .pic{
+    width: 40px;
+    height: 40px;
+    border: 2px #fff solid;
+    border-radius: 50%;
+    padding: 3px;
+    margin-left: 10px;
+}
+
+.section .projects .block .user .pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.section .projects .block .user .meta{
+    
+}
+
+.section .projects .block .user .meta .name{
+    text-shadow: 1px 1px 1px #000;
+}
+
+.section .projects .block .user .meta .username{
+    direction: ltr;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.section .projects .block .duration{
+    top: 95px;
+    right: 20px;
+    background: #7348f4;
+    line-height: 1;
+    padding: 8px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.33);
+    z-index: 1;
+}
+
+.section .projects .block .project-title{
+    bottom: 15px;
+    right: 15px;
+    left: 40px;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 15px 20px;
+    border-radius: 20px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.home-page .top-freelanceres{
+    flex-wrap: wrap;
+}
+
+.home-page .section .user-block{
+    margin: 0px 50px 30px 0px;
+}
+
+.home-page .section .user-block .pic{
+    width: 40px;
+    height: 40px;
+    border: 2px #fff solid;
+    border-radius: 50%;
+    padding: 3px;
+    margin-left: 10px;
+}
+
+.home-page .section .user-block .pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.home-page .section .user-block .meta{
+    
+}
+
+.home-page .section .user-block .meta .name{
+    
+}
+
+.home-page .section .user-block .meta .username{
+    direction: ltr;
+}
+
+/* LEFTBAR */
+.leftbar{
+    flex: 1;
+    padding: 20px 0px;
+}
+
+.leftbar .search-box{
+    margin: 10px 0px;
+}
+
+.leftbar .search-box .query{
+    flex: 1;
+    border: 0px;
+    padding: 15px;
+    background: #f1f1f1;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.leftbar .search-box .query:focus{
+    background: #e0e0e0;
+}
+
+.leftbar .search-box .find{
+    border: 0px;
+    background: #7348f4;
+    padding: 0px 20px;
+    border-radius: 5px;
+}
+
+.leftbar .search-box .find:hover{
+    background: #5a26f5;
+}
+
+.leftbar .projects{
+    flex-direction: column;
+}
+
+.leftbar .projects .columns{
+    flex-direction: row;
+}
+
+.leftbar .project-a .block{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 25px;
+}
+
+.leftbar .projects .columns .block{
+    height: 290px;
+}
+
+.leftbar .special-offer{
+    background: #e5fcfb;
+    height: 185px;
+    margin-top: 14px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.leftbar .special-offer .meta{
+    padding: 30px;
+    flex: 1;
+    z-index: 2;
+}
+
+.leftbar .special-offer .meta .h1{
+    color: #7348f4;
+}
+
+.leftbar .special-offer .meta .h2{
+    margin-top: 6px;
+    color: #06a9a2;
+}
+
+.leftbar .special-offer .meta button{
+    background: #fff;
+    border: 0px;
+    border-radius: 10px;
+    padding: 14px 20px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.leftbar .special-offer .meta button:hover{
+    background: #7348f4;
+    color:white;
+}
+
+.leftbar .special-offer .vector{
+    padding-top: 30px;
+    width: 150px;
+    z-index: 2;
+}
+
+.leftbar .special-offer .vector img{
+    
+}
+
+.leftbar .special-offer .ring{
+    width: 100px;
+    height: 100px;
+    background: #90e6e3;
+    border-radius: 100%;
+    left: -90px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 40px rgba(255, 255, 255, 0.45) solid;
+}
+
+/* PROJECT PREVIEW */
+.project-page{
+
+}
+
+.project-info{
+    flex: 1;
+}
+
+.project-page .freelancer{
+    
+}
+
+.project-page .freelancer .pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: #eee;
+    margin-left: 10px;
+}
+
+.project-page .freelancer .pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.project-page .freelancer .meta{
+    
+}
+
+.project-page .freelancer .meta .name{
+    
+}
+
+.project-page .freelancer .meta .username{
+    direction: ltr;
+}
+
+.project-page .project-meta{
+    padding: 40px 0px;
+}
+
+.project-page .project-meta .title{
+    font-weight: 600;
+}
+
+.project-page .project-meta .about{
+
+}
+
+.project-page .project-meta .section .project-stats .stats-box .icon-flag{
+    color: #fb9c66;
+}
+
+.project-videos{
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0px;
+}
+
+.project-videos a{
+    margin: 10px 0px;
+}
+
+.project-videos a .id{
+    background: #5a26f5;
+    width: 50px;
+    height: 50px;
+    border-radius: 14px;
+    padding: 14px 20px;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+.project-videos a .meta{
+    
+}
+
+.project-videos a .meta .label{
+    
+}
+
+.project-videos a .meta .duration{
+    
+}
+
+.project-videos a:hover{
+    
+}
+
+.project-preview{
+    flex: 2;
+    margin-right: 20px;
+}
+
+.extra-block{
+
+}
+
+.chat{
+    flex: 1;
+    margin-left: 50px;
+}
+
+.chat .messages{
+    flex-direction: column;
+    text-align: right;
+    justify-content: flex-start;
+    padding: 30px 0px;
+}
+
+.chat .messages .bubble{
+    align-self: flex-start;
+    margin: 7px 0px;
+    width: 100%;
+}
+
+.chat .messages .bubble .text{
+    background: #d6d6d6;
+    line-height: 1;
+    padding: 14px;
+    border-radius: 20px 20px 20px 3px;
+}
+
+.chat .messages .bubble-mine{
+    text-align: left;
+}
+
+.chat .messages .bubble-mine .text{
+    border-radius: 20px 20px 3px 20px !important;
+    background: #272727;
+    color: #fff;
+}
+
+.chat .messages .bubble-send{
+    text-align: right;
+}
+
+.chat .messages .bubble-send input{
+    border: 0;
+    width: inherit;
+}
+
+.chat .messages .bubble-send input::placeholder{
+    color: #fff;
+}
+
+.chat .messages .bubble-send .text{
+    border-radius: 20px 20px 20px 20px !important;
+    background: #5a26f5;
+    color: #fff;
+}
+
+
+.online-clients{
+    flex: 1;
+}
+.online-clients .tooltip{
+    background: #5a26f5;
+    top: 50px;
+    left: 0px;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+.online-clients .clients-list{
+    margin-top: 25px;
+}
+
+.online-clients .client{
+    margin-bottom: 30px;
+}
+
+.online-clients .client .pic{
+    width: 40px;
+    height: 40px;
+    margin-left: 12px;
+    background: #ddd;
+    border-radius: 100%;
+}
+
+.online-clients .client .pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.online-clients .client .meta{
+
+}
+
+.online-clients .client .meta .name{
+
+}
+
+.online-clients .client .meta .username{
+
+}
