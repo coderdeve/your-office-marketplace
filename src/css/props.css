@@ -18,7 +18,8 @@ h1, h2, h3, h4, h5, h6{
 
 button{
    outline: none;
-   cursor: pointer; 
+   cursor: pointer;
+   font-family: 'Tajawal', Verdana, Geneva, Tahoma, sans-serif; 
 }
 
 textarea, input{
@@ -105,6 +106,10 @@ select, textarea, input{
 
 .fonts24{
     font-size: 24px;
+}
+
+.fonts50{
+    font-size: 50px;
 }
 
 .fontn{

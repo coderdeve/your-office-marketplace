@@ -1,6 +1,6 @@
 const countriesList = [
     {
-    "name": "Afghanistan",
+    "name": "افغانستان",
     "dial_code": "+93",
     "code": "AF"
     },
