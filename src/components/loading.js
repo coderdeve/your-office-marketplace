@@ -1,6 +1,6 @@
 import React from "react";
 
-function Loading(){
+function Loading() {
     return (
         <div className="loading rel">
             <div className="line line1" />

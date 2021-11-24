@@ -3,7 +3,7 @@ import Loading from "./loading";
 
 export default class cover extends Component {
 
-    constructor(props){
+    constructor(props) {
         super(props);
         this.state = {
             loading: true,

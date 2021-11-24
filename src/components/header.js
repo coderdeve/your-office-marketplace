@@ -6,7 +6,7 @@ function Header() {
         <div className="header fixed">
 
         </div>
-    )    
+    )
 }
 
 export default Header;

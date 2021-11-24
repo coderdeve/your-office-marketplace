@@ -51,7 +51,7 @@ function Leftbar() {
         projectList.push(
             <a href="#" className="project rel" key={"popular-project-" + i}>
                 <div className="block rel" style={{
-                    background: "#e2e2e2 url(" + popularProject[i].poster +") no-repeat center"
+                    background: "#e2e2e2 url(" + popularProject[i].poster + ") no-repeat center"
                 }}>
 
                     <div className="user abs aic flex">
@@ -83,7 +83,7 @@ function Leftbar() {
             <div className="section rel">
                 <h2 className="title fonts24 fontb">بحث <span className="fontn">متقدم</span></h2>
                 <div className="search-box rel flex">
-                    <input type="text" placeholder="اكتب ما تريد ان تبحث عنه..." className="query fonts15 fontb"/>
+                    <input type="text" placeholder="اكتب ما تريد ان تبحث عنه..." className="query fonts15 fontb" />
                     <button className="find colorfff fonts15 fontb">ابحث</button>
                 </div>
             </div>

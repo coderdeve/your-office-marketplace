@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import Project1 from "../images/project-1.jpg";
 import Project5 from "../images/project-5.jpg";
 
@@ -6,9 +6,9 @@ import {
     NavLink,
 } from "react-router-dom";
 
-function HomePage(){
+function HomePage() {
 
-    useEffect(()=>{
+    useEffect(() => {
         document.title = "مكتبك - دع العالم يشاهد ابداعك";
     })
 
@@ -94,7 +94,7 @@ function HomePage(){
         projectList.push(
             <NavLink to={"/project/" + popularProject[i].ID} className="project rel" key={"popular-project-" + i}>
                 <div className="block rel" style={{
-                    background: "#e2e2e2 url(" + popularProject[i].poster +") no-repeat center"
+                    background: "#e2e2e2 url(" + popularProject[i].poster + ") no-repeat center"
                 }}>
 
                     <div className="user abs aic flex">
@@ -140,7 +140,7 @@ function HomePage(){
 
     return (
         <div className="home-page rel">
-            
+
             {/* Freelanceres Live Now */}
             <div className="section rel">
                 <h2 className="title fonts24 fontb">المتواجدون <span className="fontn">الآن</span></h2>

@@ -8,16 +8,16 @@ import {
 function Sidebar() {
 
     const [nav, setNav] = useState([
-        {Lable: "الرئيسية", slug: "/", icon: "icon-home1"},
-        {Lable: "اكتشف", slug: "discover", icon: "icon-th-list"},
-        {Lable: "الاقسام", slug: "categories", icon: "icon-price-tag"},
-        {Lable: "مشاريعي", slug: "my-projects", icon: "icon-briefcase"}
+        { Lable: "الرئيسية", slug: "/", icon: "icon-home1" },
+        { Lable: "اكتشف", slug: "discover", icon: "icon-th-list" },
+        { Lable: "الاقسام", slug: "categories", icon: "icon-price-tag" },
+        { Lable: "مشاريعي", slug: "my-projects", icon: "icon-briefcase" }
     ])
 
     const [currentPage, setCurrentPage] = useState("/");
 
     var navigation = [];
-    for(let i = 0; i < nav.length; i++){
+    for (let i = 0; i < nav.length; i++) {
         navigation.push(
             <li key={"nav-" + i + "-" + nav[i].slug}>
                 <NavLink to={nav[i].slug} className={"aic link no_ul flex color333"}>
@@ -49,7 +49,7 @@ function Sidebar() {
             </div>
 
             <div className="stats aic flex">
-                
+
                 <div className="stats-box flex">
                     <div className="ico ico-shield fonts24 icon-shield1" />
                     <h2 className="value fonts15 color333">30</h2>
@@ -66,18 +66,18 @@ function Sidebar() {
 
             <div className="me flex aic">
                 {global.fire.ID ? <React.Fragment><div className="photo colorfff fonts24">
-                    <img src="http://placeimg.com/100/100/people" className="block"/>
+                    <img src="http://placeimg.com/100/100/people" className="block" />
                 </div>
-                <div className="label fonts15 fontb color333">
-                    م.عبد الرحمن علاء
-                    <h2 className="yourname fonts13 color777">@AbdulrahmanAlaa</h2>
-                </div>
+                    <div className="label fonts15 fontb color333">
+                        م.عبد الرحمن علاء
+                        <h2 className="yourname fonts13 color777">@AbdulrahmanAlaa</h2>
+                    </div>
                 </React.Fragment>
-                :
-                <NavLink to={"oauth"} className={"aic link no_ul flex color333"}>
-                    <div className={"ico fonts24 colorfff rel icon-user2"} />
-                    <h2 className="label fonts20 fontb">تسجيل الدخول</h2>
-                </NavLink>
+                    :
+                    <NavLink to={"oauth"} className={"aic link no_ul flex color333"}>
+                        <div className={"ico fonts24 colorfff rel icon-user2"} />
+                        <h2 className="label fonts20 fontb">تسجيل الدخول</h2>
+                    </NavLink>
                 }
             </div>
 

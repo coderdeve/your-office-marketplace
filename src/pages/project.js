@@ -1,7 +1,7 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Project1 from "../images/project-1.jpg";
 
-function ProjectPage(props){
+function ProjectPage(props) {
 
     const [Project, setProject] = useState(
         {
@@ -40,7 +40,7 @@ function ProjectPage(props){
     const projectID = props.match.params.projectid;
 
     var projectVideos = [];
-    for(let i = 0; i < Project.videos.length; i++){
+    for (let i = 0; i < Project.videos.length; i++) {
         projectVideos.push(
             <a href="#" key={"project-video-" + i} className="no_ul aic rel flex">
                 <div className="id fonts18 fontn colorfff">{Project.videos[i].ID}</div>
@@ -70,7 +70,7 @@ function ProjectPage(props){
 
                 <div className="project-meta">
                     <h2 className="fonts24 title fontb color333">{Project.title}</h2>
-                    <p className="fonts18 about fontb color777" dangerouslySetInnerHTML={{__html: Project.about}} />
+                    <p className="fonts18 about fontb color777" dangerouslySetInnerHTML={{ __html: Project.about }} />
 
                     <div className="section section-b rel">
                         <h2 className="title fonts24 fontb">انجازات <span className="fontn">منفذ المشروع</span></h2>
@@ -101,7 +101,7 @@ function ProjectPage(props){
                     </div>
 
                 </div>
-                
+
             </div>
 
             <div className="project-preview rel">
@@ -146,7 +146,7 @@ function ProjectPage(props){
                                 <div className="bubble bubble-send rel">
                                     <input className="text iblock fontn fonts15 color333" type="text" placeholder="اكتب رسالتك هنا..." />
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>

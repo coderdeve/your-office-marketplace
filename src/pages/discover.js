@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 function DiscoverPage() {
 
-    useEffect(()=>{
+    useEffect(() => {
         document.title = "اكتشف";
     })
 
