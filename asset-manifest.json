@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/your-office-marketplace/static/css/main.9ab39418.chunk.css",
-    "main.js": "/your-office-marketplace/static/js/main.cd073b3b.chunk.js",
-    "main.js.map": "/your-office-marketplace/static/js/main.cd073b3b.chunk.js.map",
-    "runtime-main.js": "/your-office-marketplace/static/js/runtime-main.b4c42769.js",
-    "runtime-main.js.map": "/your-office-marketplace/static/js/runtime-main.b4c42769.js.map",
-    "static/js/2.9ae0c9b8.chunk.js": "/your-office-marketplace/static/js/2.9ae0c9b8.chunk.js",
-    "static/js/2.9ae0c9b8.chunk.js.map": "/your-office-marketplace/static/js/2.9ae0c9b8.chunk.js.map",
-    "static/js/3.05c1af54.chunk.js": "/your-office-marketplace/static/js/3.05c1af54.chunk.js",
-    "static/js/3.05c1af54.chunk.js.map": "/your-office-marketplace/static/js/3.05c1af54.chunk.js.map",
+    "main.css": "/your-office-marketplace/static/css/main.9a904382.chunk.css",
+    "main.js": "/your-office-marketplace/static/js/main.ca64bb4c.chunk.js",
+    "main.js.map": "/your-office-marketplace/static/js/main.ca64bb4c.chunk.js.map",
+    "runtime-main.js": "/your-office-marketplace/static/js/runtime-main.fe8943b9.js",
+    "runtime-main.js.map": "/your-office-marketplace/static/js/runtime-main.fe8943b9.js.map",
+    "static/js/2.78de8502.chunk.js": "/your-office-marketplace/static/js/2.78de8502.chunk.js",
+    "static/js/2.78de8502.chunk.js.map": "/your-office-marketplace/static/js/2.78de8502.chunk.js.map",
+    "static/js/3.6a9821b4.chunk.js": "/your-office-marketplace/static/js/3.6a9821b4.chunk.js",
+    "static/js/3.6a9821b4.chunk.js.map": "/your-office-marketplace/static/js/3.6a9821b4.chunk.js.map",
     "index.html": "/your-office-marketplace/index.html",
-    "static/css/main.9ab39418.chunk.css.map": "/your-office-marketplace/static/css/main.9ab39418.chunk.css.map",
-    "static/js/2.9ae0c9b8.chunk.js.LICENSE.txt": "/your-office-marketplace/static/js/2.9ae0c9b8.chunk.js.LICENSE.txt",
+    "static/css/main.9a904382.chunk.css.map": "/your-office-marketplace/static/css/main.9a904382.chunk.css.map",
+    "static/js/2.78de8502.chunk.js.LICENSE.txt": "/your-office-marketplace/static/js/2.78de8502.chunk.js.LICENSE.txt",
     "static/media/fonts.css": "/your-office-marketplace/static/media/icomoon.f0450cda.eot",
     "static/media/offer.da5bc567.png": "/your-office-marketplace/static/media/offer.da5bc567.png",
     "static/media/project-1.jpg": "/your-office-marketplace/static/media/project-1.29df3fd2.jpg",
@@ -22,9 +22,9 @@
     "static/media/your-office-logo.png": "/your-office-marketplace/static/media/your-office-logo.5b022b35.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b4c42769.js",
-    "static/js/2.9ae0c9b8.chunk.js",
-    "static/css/main.9ab39418.chunk.css",
-    "static/js/main.cd073b3b.chunk.js"
+    "static/js/runtime-main.fe8943b9.js",
+    "static/js/2.78de8502.chunk.js",
+    "static/css/main.9a904382.chunk.css",
+    "static/js/main.ca64bb4c.chunk.js"
   ]
 }
