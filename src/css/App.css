@@ -631,7 +631,7 @@
     background: #7348f4;
 }
 
-.oauth-view .__phonesigner__{
+.oauth-view .phonesigner{
     margin: 10px 0px 20px 0px;
 }
 
