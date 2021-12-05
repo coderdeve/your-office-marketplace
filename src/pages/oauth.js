@@ -61,7 +61,7 @@ function AccountPage() {
             setLoading(true);
             confirmationResult.confirm(verificationCode)
                 .then(result => {
-                    console.log(("تم تسجيل الدخول..."));
+                    // console.log(("تم تسجيل الدخول..."));
                     setView("numview");
                     setLoading(false);
                     Hoopoe.Toast.show({ html: "تم تسجيل الدخول..." });
